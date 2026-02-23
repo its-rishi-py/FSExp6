@@ -1,0 +1,86 @@
+/* Full page center */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* form container */
+.container {
+  width: 340px;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.form input,
+textarea,
+select {
+  width: 85%;        
+  display: block;
+  margin: 8px auto;  
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+}
+
+/* focus effect */
+.form input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* group sections */
+.group {
+  text-align: center;   /* center title */
+  margin: 12px 0;
+}
+
+/* label titles */
+.group-title {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* horizontal options */
+.options {
+  display: flex;
+  justify-content: center;  /* center options */
+  gap: 20px;
+  align-items: center;
+}
+
+/* submit button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
