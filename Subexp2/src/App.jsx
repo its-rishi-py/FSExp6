@@ -27,14 +27,15 @@ function App() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (emailValid && passwordValid) {
-      alert("Login Successful ✅");
-    } else {
-      alert("Please enter valid details ❌");
-    }
-  };
+  if (emailValid && passwordValid) {
+    alert(`Login Successful ✅
+Email: ${email}`);
+  } else {
+    alert("Please enter valid email & password ❌");
+  }
+};
 
   return (
     <div className="container">
