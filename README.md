@@ -49,10 +49,7 @@ A user registration form was created using React controlled components.
 - Managing checkbox selections using arrays  
 - Handling form submission  
 
-<img width="580" height="889" alt="Screenshot 2026-02-23 152912" src="https://github.com/user-attachments/assets/27ef6cf1-10c3-40d3-b42c-47ac41f8d04c" />
-
-<img width="461" height="875" alt="Screenshot 2026-02-23 152922" src="https://github.com/user-attachments/assets/62e8c2df-9e75-430e-81a0-6b8593749cf2" />
-
+<img width="456" height="847" alt="Screenshot 2026-03-02 100156" src="https://github.com/user-attachments/assets/7d50e05c-c876-485e-a25a-7cd6b34a746a" />
 
 ---
 
@@ -102,9 +99,9 @@ Password must:
 - Abcde  
 - A1234  
 
-<img width="465" height="606" alt="Screenshot 2026-02-23 153414" src="https://github.com/user-attachments/assets/719991db-4ec3-46ce-8947-78ec607b1fcd" />
+<img width="453" height="680" alt="Screenshot 2026-03-02 100307" src="https://github.com/user-attachments/assets/10e52b1d-072c-42bb-95ff-35055e1c82b4" />
 
-<img width="461" height="701" alt="image" src="https://github.com/user-attachments/assets/a7413e79-14d8-4267-ae76-ac3d98d992a8" />
+<img width="452" height="660" alt="Screenshot 2026-03-02 100324" src="https://github.com/user-attachments/assets/30f0cf40-5aae-42f7-a689-0f8d0e74d153" />
 
 ---
 
