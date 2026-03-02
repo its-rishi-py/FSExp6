@@ -41,9 +41,21 @@ function App() {
 
   // submit form
   const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(JSON.stringify(formData, null, 2));
-  };
+  e.preventDefault();
+
+  const skillsText = formData.skills.length
+    ? formData.skills.join(", ")
+    : "None";
+
+  alert(
+    `Name: ${formData.firstName} ${formData.lastName}
+Gender: ${formData.gender}
+DOB: ${formData.dob}
+State: ${formData.state}
+Skills: ${skillsText}
+Address: ${formData.address}`
+  );
+};
 
   return (
     <div className="container">
